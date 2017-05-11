@@ -3,8 +3,17 @@ package com.javatpoint;
 public class User {
 	String name;
 	String email;
+	String adres;
 
-	public String getName() {
+	public String getAdres() {
+    return adres;
+  }
+
+  public void setAdres(String adres) {
+    this.adres = adres;
+  }
+
+  public String getName() {
 		return name;
 	}
 
